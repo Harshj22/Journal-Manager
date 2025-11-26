@@ -4,7 +4,7 @@ from datetime import datetime
 class JournalManager:
 
     def __init__(self):
-        self.filename = "exam6.txt"
+        self.filename = "journal.txt"
 
 
     def add_entry(self):
