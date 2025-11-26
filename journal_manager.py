@@ -13,7 +13,7 @@ class JournalManager:
             with open(self.filename, "a") as f:
                 f.write(str(datetime.now()) + "\n")
                 f.write(entry + "\n\n")
-            print("Entry Added Successfully!.\n")
+            print("Entry Added Successfully.\n")
         except:
             print("Entry not Added.\n")
 
